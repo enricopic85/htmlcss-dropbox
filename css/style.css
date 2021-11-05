@@ -7,8 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 nav{
-    height: 70px;
-    line-height: 70px;
+    line-height: 70px; 
     margin: 0 auto;
 }
 .fr{        
@@ -17,20 +16,30 @@ float: right;
 .fl{
     float: left;
 }
+.text-align{
+    /* text-align: center; */
+    padding-left: 20px;
+}
 .big-container{
-    width: 1400px;
+    width: 100%;
     height: 600px;
     background-color: royalblue;
+    /* padding-top: 50px; */
 }
 .medium-container{
     width: 1200px;
     margin:0 auto;
+    position: relative;
+    bottom: -70px;
 }
 .content-h1{
     /* text-align: center; */
     font-weight: 800;
     font-size: 30px;
     
+}
+.padding-left{
+    padding-left: 20px;
 }
 .margin-top{
     margin-top: 20px;
@@ -39,7 +48,7 @@ float: right;
     margin-left: 20px;
 }
 .margin-piani{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .margin{
     margin-bottom: 15px;
@@ -80,6 +89,16 @@ float: right;
 }
 .ib{
     display: inline-block;
+}
+.centramento{
+    margin: 0 auto;
+}
+.riga{
+    width: 60px;
+    margin-top: 20px;
+}
+.ls{
+    list-style: none;
 }
 /* -------------------------------------------------------------------- */
 
@@ -147,10 +166,7 @@ nav img{
     vertical-align: middle;
     border-radius: 50%;
 }
-span{
-    vertical-align: middle;
-    margin-right: 10px;
-}
+
 .fatturazione-annuale{
     border: 1px solid grey;
     width: 20px;
@@ -166,20 +182,17 @@ span{
 }
 .piani-left{
     width: 30%;
-    /* border:1px solid black; */
-    height: 800px;
+    height: 700px;
 }
 .piani-center{
     width: 40%;
-    /* border: 1px solid black; */
-    height: 800px;
+    height: 700px;
     padding-right: 5%;
     padding-left: 5%;
 }
 .piani-right{
     width: 30%;
-    /* border: 1px solid black; */
-    height: 800px;
+    height: 700px;
    
 }
 .row1{
@@ -194,17 +207,17 @@ span{
 .pl,.pc,.pr{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 .categoria1{
     height: 40px;
     text-align: center;
     line-height: 40px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
 }
 .categoria1::before{
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 400;
     content: "\f007";
     color: #000;
 }
@@ -219,9 +232,7 @@ span{
     font-size: 12px;
     font-weight: 800;
 }
-/* .professional{
-    margin-bottom: 20px;
-} */
+
 .durata-abbonamento{
     color: blue;
     padding-left: 20px;
@@ -233,19 +244,21 @@ span{
 }
 .num-utenti::before{
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 400;
     content: "\f007";
     color: #000;
 }
 .padding-medi{
     padding-left: 20px;
     padding-top: 5px;
-    font-size: 10px;
+    font-size: 12px;
     padding-bottom: 10px;
 }
 .funzioni{
     display: inline-block;
     font-size: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 .simbolo{
     padding-left: 20px;
@@ -254,4 +267,22 @@ span{
 }
 .funzioni-padding{
     padding-left: 20px;
+    font-size: 10px;
+}
+.funzioni span{
+    margin-left: -12px;
+}
+/* .li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\2713";
+    color: #000;
+    font-size: 12px;
+    color: blue;
+    font-weight: 700;
+} */
+.mark{
+    font-size: 12px;
+    color: blue;
+    font-weight: 700;
 }

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 70px;
+    line-height: 70px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+nav::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.button-medium{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    vertical-align: middle;
+}

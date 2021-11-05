@@ -9,7 +9,80 @@ body{
 nav{
     height: 70px;
     line-height: 70px;
+    margin: 0 auto;
 }
+.fr{        
+float: right;
+}
+.fl{
+    float: left;
+}
+.big-container{
+    width: 1400px;
+    height: 600px;
+    background-color: royalblue;
+}
+.medium-container{
+    width: 1200px;
+    margin:0 auto;
+}
+.content-h1{
+    /* text-align: center; */
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+.margin-top{
+    margin-top: 20px;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.margin-piani{
+    margin-bottom: 5px;
+}
+.margin{
+    margin-bottom: 15px;
+}
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.content-jumbo{
+    margin-bottom: 20px;
+}
+.margin-p{
+    margin-bottom: 5px;
+}
+.content-p{
+    width: 40%;
+}
+.foto-jumbo img{
+    width: 100%;
+}
+.foto-jumbo{
+    width: 60%;
+}
+/* .fas  */
+.fa-arrow-down{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.small-container{
+    width: 800px;
+    margin:0 auto;
+    margin-top: 80px;
+}
+.small-container h1{
+    font-weight: 900;
+    
+}
+.ib{
+    display: inline-block;
+}
+/* -------------------------------------------------------------------- */
+
 nav ul{
     display: inline-block;
     list-style: none;
@@ -36,12 +109,7 @@ nav img{
     margin-right: 20px;
     margin-left: 20px;
 }
-.fl{
-    float: left;
-}
-.fr{
-    float: right;
-}
+
 .button-medium{
     margin-right: 20px;
     text-decoration: none;
@@ -54,4 +122,136 @@ nav img{
     line-height: 30px;
     font-size: small;
     vertical-align: middle;
+}
+.button-large{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.fatturazione{
+    margin-top: 30px;
+}
+.fatturazione-mensile{
+    border: 5px solid blue;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+span{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.fatturazione-annuale{
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.piani-pagamento{
+    margin-top: 30px;
+    height: 1000px;
+    background-color: red;
+}
+.piani-left{
+    width: 30%;
+    /* border:1px solid black; */
+    height: 800px;
+}
+.piani-center{
+    width: 40%;
+    /* border: 1px solid black; */
+    height: 800px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.piani-right{
+    width: 30%;
+    /* border: 1px solid black; */
+    height: 800px;
+   
+}
+.row1{
+    margin-top: 30px;
+    width: 800px;
+}
+.row1::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.pl,.pc,.pr{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.categoria1{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+.categoria1::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #000;
+}
+.padding-maggiori{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.padding-inferiori{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 800;
+}
+/* .professional{
+    margin-bottom: 20px;
+} */
+.durata-abbonamento{
+    color: blue;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.num-utenti{
+    font-size: 10px;
+}
+.num-utenti::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #000;
+}
+.padding-medi{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.funzioni{
+    display: inline-block;
+    font-size: 10px;
+}
+.simbolo{
+    padding-left: 20px;
+    font-size: 10px;
+    display: inline-block;
+}
+.funzioni-padding{
+    padding-left: 20px;
 }

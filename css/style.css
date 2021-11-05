@@ -286,3 +286,19 @@ nav img{
     color: blue;
     font-weight: 700;
 }
+.team{
+    height: 40px;
+    border-bottom: 1px solid grey;
+    line-height: 40px;
+    text-align: center;
+}
+.ufficio-vendite{
+    width: 70%;
+}
+.enterprise{
+    border: 1px solid grey;
+    margin-top: 30px;
+}
+.cta{
+    width: 30%;
+}

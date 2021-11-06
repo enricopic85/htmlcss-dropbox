@@ -9,6 +9,12 @@ body{
 nav{
     line-height: 70px; 
     margin: 0 auto;
+    width: 100%;
+    /* height: 100%; */
+    background-color: white;
+    top:0;
+    position: fixed;
+    z-index: 1001;
 }
 .fr{        
 float: right;
@@ -24,6 +30,7 @@ float: right;
     width: 100%;
     height: 600px;
     background-color: royalblue;
+    margin-top: 73px;
     /* padding-top: 50px; */
 }
 .medium-container{
@@ -295,10 +302,78 @@ nav img{
 .ufficio-vendite{
     width: 70%;
 }
+.ufficio-vendite h3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight:bold;
+}
+.ufficio-vendite h5{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ufficio-vendite p{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
 .enterprise{
     border: 1px solid grey;
     margin-top: 30px;
 }
 .cta{
     width: 30%;
+    padding-top: 20px;
+}
+.cta a{
+    /* padding-top: 10px; */
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    /* margin-bottom: 10px; */
+}
+.img-ptr{
+    width: 50%;
+}
+.img-ptr img{
+    width: 100%;
+}
+.partner{
+    margin-top: 100px;
+}
+.ptr-drop{
+    width: 50%;
+}
+.ptr-h2{
+    padding: 30px 0px 20px 30px;
+    font-weight: bold;
+}
+.prt-p{
+    padding-left: 30px;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.btn-prt a{
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.btn-prt{
+    padding-left: 30px;
 }

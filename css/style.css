@@ -432,14 +432,19 @@ nav img{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
 }
+
 .logo-quadrato img{
     width: 100%;
+    filter: invert(100%);
+    
 }
 .designit{
     width: 40%;
     padding-left: 30px;
     padding-top: 30px;
+    background-color: lightgray;
 }
 
 .designit-content img{

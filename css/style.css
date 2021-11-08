@@ -15,6 +15,9 @@ nav{
     position: fixed;
     z-index: 1001;
 }
+.br-bot{
+    border-bottom: grey 1px solid;
+}
 .fr{        
 float: right;
 }
@@ -38,6 +41,12 @@ float: right;
     font-weight: 800;
     font-size: 30px;
     
+}
+.mg-top80{
+    margin-top: 80px;
+}
+.mg-bot30{
+    margin-bottom: 30px;
 }
 .pd-left{
     padding-left: 50px;
@@ -453,4 +462,13 @@ nav img{
     text-align: center;
     line-height: 30px;
     font-size: small;
+}
+.freccia{
+    font-weight: 700;
+}
+
+.faq{
+    border-top: 1px solid grey;
+    height: 80px;
+    line-height: 80px;
 }

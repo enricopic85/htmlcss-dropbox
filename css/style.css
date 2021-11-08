@@ -39,6 +39,12 @@ float: right;
     font-size: 30px;
     
 }
+.pd-left{
+    padding-left: 50px;
+}
+.pd-top90{
+    padding-top: 90px;
+}
 .padding-left{
     padding-left: 20px;
 }
@@ -420,4 +426,31 @@ nav img{
 
 .designit-content img{
     width: 20%;
+}
+.cta-bsn{
+    height: 220px;
+    background-color: rgba(47, 95, 255, 0.521);
+}
+.container{
+    height: 60%;
+    width: 800px;
+    margin: 0 auto;
+}
+.cta.lf{
+    width: 60%;
+}
+.cta-lf h2{
+    color: rgb(88, 10, 88);
+    font-weight: 800;
+}
+.cta-rg a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
 }

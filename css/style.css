@@ -27,7 +27,9 @@ float: right;
 .mg-bot50{
     margin-bottom: 50px;
 }
-
+.pd-right30{
+    padding-right: 30px;
+}
 .big-container{
     width: 100%;
     height: 600px;
@@ -37,8 +39,10 @@ float: right;
 .medium-container{
     width: 1200px;
     margin:0 auto;
-    position: relative;
     bottom: -70px;
+}
+.rel{
+    position: relative;
 }
 .content-h1{
     font-weight: 800;
@@ -171,8 +175,6 @@ float: right;
 .cw{
     color: white;
 }
-/* -------------------------------------------------------------------- */
-
 nav ul{
     display: inline-block;
     list-style: none;
@@ -198,12 +200,32 @@ nav img{
     vertical-align: middle;
     margin: 0px 20px;
 }
-
-
-
 .fatturazione{
     margin-top: 30px;
 }
+.padding-maggiori{
+    padding: 25px 0px 10px 20px ;
+}
+.num-utenti,.num-utenti2{
+    font-size: 10px;
+}
+
+
+.freccia{
+    font-weight: 700;
+}
+
+.foot{
+    padding: 80px 30px 0 80px;
+}
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
 .fatturazione-mensile{
     border: 5px solid blue;
     width: 20px;
@@ -224,22 +246,20 @@ nav img{
 .piani-pagamento{
     margin-top: 30px;
     height: 1000px;
-    background-color: red;
 }
 .piani-left{
-    width: 30%;
     height: 700px;
 }
 .piani-center{
-    width: 40%;
     height: 700px;
-    padding-right: 5%;
-    padding-left: 5%;
+    margin: 0 40px;
 }
 .piani-right{
-    width: 30%;
-    height: 700px;
-   
+    height: 700px;   
+}
+
+.piani-left, .piani-center, .piani-right{
+    width: calc(100%/3 - 80px/3);
 }
 .row1{
     margin-top: 30px;
@@ -255,7 +275,7 @@ nav img{
     height: 100%;
     border: 1px solid grey;
 }
-.categoria1{
+.categoria1,.categoria2{
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -267,9 +287,13 @@ nav img{
     content: "\f007";
     color: #000;
 }
-.padding-maggiori{
-    padding: 25px 0px 10px 20px ;
+.categoria2::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f594";
+    color: #000;
 }
+
 .padding-inferiori{
     padding-left: 20px;
     padding-bottom: 5px;
@@ -283,15 +307,21 @@ nav img{
     padding-bottom: 5px;
     font-size: 12px;
 }
-.num-utenti{
-    font-size: 10px;
-}
+
 .num-utenti::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     content: "\f007";
     color: #000;
 }
+.num-utenti2::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    color: #000;
+}
+
+/* f234 */
 .padding-medi{
     padding: 5px 0px 10px 20px ;
     font-size: 12px;
@@ -402,26 +432,26 @@ nav img{
 }
 
 .loghi{
-    height: 400px;
+    height: 350px;
 }
 .loghi-left{
     width: 30%;
     height: 100%;
 }
-.logo1,.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8{
+.logo1,.logo2,.logo3,.logo4{
     width: 50%;
     height: 50%;
     position: relative;
 }
 .logo1{
-    background-color: green;
+    background-color: #81d781;
     border: 7px solid rgb(59, 131, 165);
 }
 .logo2{
-    background-color: violet;
+    background-color: #702070;
 }
 .logo3{
-    background-color: turquoise;
+    background-color: #4bd1d1;
 }
 .logo4{
     background-color: red;
@@ -451,8 +481,8 @@ nav img{
     width: 20%;
 }
 .cta-bsn{
-    height: 220px;
-    background-color: rgba(47, 95, 255, 0.521);
+    height: 250px;
+    background-color: rgb(37 60 143 / 0.52);
 }
 .container{
     height: 60%;
@@ -477,9 +507,7 @@ nav img{
     line-height: 30px;
     font-size: small;
 }
-.freccia{
-    font-weight: 700;
-}
+
 
 .faq{
     border-top: 1px solid grey;
@@ -491,11 +519,7 @@ footer{
     height: 400px;
     margin-top: 100px;
 }
-.foot{
-    padding-right: 30px;
-    padding-top: 80px;
-    padding-left: 80px;
-}
+
 .font-size12{
     font-size: 12px;
 }
